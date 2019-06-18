@@ -69,6 +69,7 @@ window.addEventListener('keyup', (event) => {
 }); 
 
 //  stop prop code
+
 let button = document.querySelector('.btn');
 let div = document.querySelector('div');
 button.addEventListener('click', event => {
@@ -79,3 +80,7 @@ div.addEventListener('click', event => {
   console.log('div was clicked');
 })
 
+const nav = document.querySelector('nav');
+nav.addEventListener('click', event => {
+    event.preventDefault();
+})
